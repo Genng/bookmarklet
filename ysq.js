@@ -1,4 +1,4 @@
-if (window.location.href.indexOf("bbs.mihoyo.com/ys") > 0) {
+if (window.location.href.indexOf("miyoushe.com/ys") > 0) {
     if (!window._ysq) {
         var GenshinInfoFetcher = function () {
             const ths = this;
@@ -153,7 +153,7 @@ if (window.location.href.indexOf("bbs.mihoyo.com/ys") > 0) {
     }
     window._ysq = new GenshinInfoFetcher();
 } else {
-    alert('页面地址错误，请在米游社原神页面使用本书签：https://bbs.mihoyo.com/ys/');
+    alert('页面地址错误，请在米游社原神页面使用本书签：https://www.miyoushe.com/ys/');
 }
 
 
